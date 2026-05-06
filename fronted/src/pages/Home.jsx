@@ -10,7 +10,8 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const API = "http://localhost:5000/api/users";
+  //const API = "http://localhost:5000/api/users";
+  const API = "https://user-management-zs4m.onrender.com/api/users"
 
   const fetchUsers = async () => {
     try {
